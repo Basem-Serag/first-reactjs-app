@@ -1,0 +1,26 @@
+{
+    "sourceFile": "src/components/Layout/Pages/Contact/Contact.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1753219373817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1753219633220,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -8,20 +8,45 @@\n           <div className=\"row\">\r\n             <div className=\"col-md-12\">\r\n               <form>\r\n                 <div className=\"mb-3\">\r\n-                  <label htmlFor=\"exampleInputEmail1\" className=\"form-label\">\r\n-                    Email address\r\n-                  </label>\r\n                   <input\r\n+                    className=\"form-control\"\r\n+                    type=\"text\"\r\n+                    name=\"userName\"\r\n+                    placeholder=\"Name\"\r\n+                    aria-label=\"user name input\"\r\n+                  />\r\n+                </div>\r\n+\r\n+                <div className=\"mb-3\">\r\n+                  <input\r\n+                    className=\"form-control\"\r\n+                    type=\"number\"\r\n+                    name=\"userAge\"\r\n+                    placeholder=\"Age\"\r\n+                    aria-label=\"user age input\"\r\n+                  />\r\n+                </div>\r\n+\r\n+                <div className=\"mb-3\">\r\n+                  <input\r\n+                    className=\"form-control\"\r\n                     type=\"email\"\r\n+                    name=\"userEmail\"\r\n+                    placeholder=\"Email\"\r\n+                    aria-label=\"user email input\"\r\n+                  />\r\n+                </div>\r\n+\r\n+                <div className=\"mb-3\">\r\n+                  <input\r\n                     className=\"form-control\"\r\n-                    id=\"exampleInputEmail1\"\r\n-                    aria-describedby=\"emailHelp\"\r\n+                    type=\"password\"\r\n+                    name=\"userPassword\"\r\n+                    placeholder=\"Password\"\r\n+                    aria-label=\"user password input\"\r\n                   />\r\n-                  <div id=\"emailHelp\" className=\"form-text\">\r\n-                    We'll never share your email with anyone else.\r\n-                  </div>\r\n                 </div>\r\n \r\n                 <button\r\n                   type=\"submit\"\r\n"
+                },
+                {
+                    "date": 1753219682890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,14 @@\n \r\n export default function Contact() {\r\n   return (\r\n     <>\r\n-      <section className=\"p-5\">\r\n+      <section className=\"p-5 text-center\">\r\n+        <SectionTitle\r\n+          name=\"contact component\"\r\n+          borderColor={'rgb(44, 62, 80)'}\r\n+        />\r\n+\r\n         <div className=\"container\">\r\n           <div className=\"row\">\r\n             <div className=\"col-md-12\">\r\n               <form>\r\n"
+                }
+            ],
+            "date": 1753219373817,
+            "name": "Commit-0",
+            "content": "import React from 'react';\r\n\r\nexport default function Contact() {\r\n  return (\r\n    <>\r\n      <section className=\"p-5\">\r\n        <div className=\"container\">\r\n          <div className=\"row\">\r\n            <div className=\"col-md-12\">\r\n              <form>\r\n                <div className=\"mb-3\">\r\n                  <label htmlFor=\"exampleInputEmail1\" className=\"form-label\">\r\n                    Email address\r\n                  </label>\r\n                  <input\r\n                    type=\"email\"\r\n                    className=\"form-control\"\r\n                    id=\"exampleInputEmail1\"\r\n                    aria-describedby=\"emailHelp\"\r\n                  />\r\n                  <div id=\"emailHelp\" className=\"form-text\">\r\n                    We'll never share your email with anyone else.\r\n                  </div>\r\n                </div>\r\n\r\n                <button type=\"submit\" className=\"btn btn-primary text-capitalize\">\r\n                  send message\r\n                </button>\r\n              </form>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </section>\r\n    </>\r\n  );\r\n}\r\n"
+        }
+    ]
+}

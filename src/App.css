@@ -1,0 +1,102 @@
+:root {
+  --color-primary: #1abc9c;
+  --color-primary-light: #1abc9ce6;
+  --color-primary-rgb: 13, 110, 253;
+  --color-dark: #2c3e50;
+  --color-dark-rgb: 44, 62, 80;
+  --color-darker: #1a252f;
+  --color-text-on-dark: #ffffff;
+}
+
+/* Custom Styles */
+.border-style {
+  width: 5rem;
+  height: 0.3125rem;
+}
+/* prevent bootstrap global effects when modal is open */
+.modal-open {
+  overflow-y: scroll !important;
+  padding-right: 0 !important;
+}
+.modal-open .navbar {
+  padding-right: 0 !important;
+}
+
+/* start navbar */
+.navbar {
+  background: var(--color-dark);
+  transition: all 0.5s linear;
+}
+.navbar-nav {
+  --bs-navbar-color: var(--color-text-on-dark);
+}
+.navbar-nav .nav-link.active {
+  background: var(--color-primary);
+  border-radius: var(--bs-border-radius-lg);
+}
+/* end navbar */
+.landing-section,
+.about-section {
+  background: var(--color-primary);
+}
+
+/* start portfolio */
+.portfolio-section {
+  color: rgb(var(--color-dark-rgb));
+}
+.content:hover .img-overlay {
+  opacity: 1;
+}
+
+.img-overlay {
+  position: absolute;
+  background: var(--color-primary-light);
+  width: 100%;
+  height: 100%;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--color-text-on-dark);
+}
+/* end portfolio */
+
+/* start contact */
+.btn-submit {
+  border: 0;
+  color: var(--color-text-on-dark);
+  background: var(--color-primary);
+  border-radius: var(--bs-border-radius);
+  padding: 5px 10px;
+  &:hover {
+    background: var(--color-primary-light);
+  }
+}
+/* end contact */
+
+/* start footer */
+footer {
+  background: var(--color-dark);
+  color: var(--color-text-on-dark);
+  text-align: center;
+}
+footer .row {
+  padding: 2.5rem;
+}
+footer .copyright-box {
+  background: var(--color-darker);
+  padding: 0.625rem;
+}
+footer .copyright-box p {
+  padding-top: 0.625rem;
+}
+/* end footer */
+
+/* start modal */
+.modal-backdrop {
+  --bs-backdrop-bg: rgb(var(--color-primary-rgb)) !important;
+  opacity: 0.25 !important;
+}
+/* end modal */

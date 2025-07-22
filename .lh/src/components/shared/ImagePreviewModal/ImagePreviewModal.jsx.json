@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/components/Shared/ImagePreviewModal/ImagePreviewModal.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1753139094662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1753139142697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,23 @@\n import React from 'react';\r\n \r\n-export default function ImagePreviewModal() {\r\n-  return <div>ImagePreviewModal</div>;\r\n+export default function ImagePreviewModal({imgSrc}) {\r\n+  return (\r\n+    <>\r\n+      <div\r\n+        className=\"modal\"\r\n+        tabIndex={-1}\r\n+        id=\"exampleModal\"\r\n+        aria-labelledby=\"exampleModalLabel\"\r\n+        aria-hidden=\"true\"\r\n+      >\r\n+        <div className=\"modal-dialog  modal-dialog-centered modal-md\">\r\n+          <div className=\"modal-content\">\r\n+            <div className=\"modal-body\">\r\n+              <img src=\"\" alt=\"\" className='img-fluid' />\r\n+            </div>\r\n+          </div>\r\n+        </div>\r\n+      </div>\r\n+    </>\r\n+  );\r\n }\r\n"
+                },
+                {
+                    "date": 1753139163635,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n       >\r\n         <div className=\"modal-dialog  modal-dialog-centered modal-md\">\r\n           <div className=\"modal-content\">\r\n             <div className=\"modal-body\">\r\n-              <img src=\"\" alt=\"\" className=\"img-fluid\" />\r\n+              <img src={imgSrc} alt=\"Image preview\" className=\"img-fluid\" />\r\n             </div>\r\n           </div>\r\n         </div>\r\n       </div>\r\n"
+                },
+                {
+                    "date": 1753139281309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,20 +2,12 @@\n \r\n export default function ImagePreviewModal({ imgSrc }) {\r\n   return (\r\n     <>\r\n-      <div\r\n-        className=\"modal\"\r\n-        tabIndex={-1}\r\n-        id=\"exampleModal\"\r\n-        aria-labelledby=\"exampleModalLabel\"\r\n-        aria-hidden=\"true\"\r\n-      >\r\n-        <div className=\"modal-dialog  modal-dialog-centered modal-md\">\r\n-          <div className=\"modal-content\">\r\n-            <div className=\"modal-body\">\r\n-              <img src={imgSrc} alt=\"Image preview\" className=\"img-fluid\" />\r\n-            </div>\r\n+      <div className=\"modal-dialog modal-dialog-centered modal-md\">\r\n+        <div className=\"modal-content\">\r\n+          <div className=\"modal-body\">\r\n+            <img src={imgSrc} alt=\"Image preview\" className=\"img-fluid\" />\r\n           </div>\r\n         </div>\r\n       </div>\r\n     </>\r\n"
+                }
+            ],
+            "date": 1753139094662,
+            "name": "Commit-0",
+            "content": "import React from 'react';\r\n\r\nexport default function ImagePreviewModal() {\r\n  return <div>ImagePreviewModal</div>;\r\n}\r\n"
+        }
+    ]
+}

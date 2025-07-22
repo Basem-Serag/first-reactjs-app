@@ -1,0 +1,78 @@
+{
+    "sourceFile": "src/components/Layout/Pages/About/About.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 15,
+            "patches": [
+                {
+                    "date": 1753059516801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1753059527391,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function About() {\r\n   return (\r\n     <>\r\n       <section className=\"landing-section d-flex flex-column justify-content-center vh-100 text-white\">\r\n-        <SectionTitle name=\"Home\" />\r\n+        <SectionTitle name=\"about\" />\r\n         <div className=\"container\"></div>\r\n       </section>\r\n     </>\r\n   );\r\n"
+                },
+                {
+                    "date": 1753059718258,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export default function About() {\r\n   return (\r\n     <>\r\n-      <section className=\"landing-section d-flex flex-column justify-content-center vh-100 text-white\">\r\n+      <section className=\"landing-section d-flex flex-column justify-content-center vh-100\">\r\n         <SectionTitle name=\"about\" />\r\n         <div className=\"container\"></div>\r\n       </section>\r\n     </>\r\n"
+                },
+                {
+                    "date": 1753059733229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export default function About() {\r\n   return (\r\n     <>\r\n-      <section className=\"landing-section d-flex flex-column justify-content-center vh-100\">\r\n+      <section className=\"about-section d-flex flex-column justify-content-center vh-100\">\r\n         <SectionTitle name=\"about\" />\r\n         <div className=\"container\"></div>\r\n       </section>\r\n     </>\r\n"
+                },
+                {
+                    "date": 1753059925019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function About() {\r\n   return (\r\n     <>\r\n       <section className=\"about-section d-flex flex-column justify-content-center vh-100\">\r\n-        <SectionTitle name=\"about\" />\r\n+        <SectionTitle name=\"about\" borderColor={'rgb(44, 62, 80)'} />\r\n         <div className=\"container\"></div>\r\n       </section>\r\n     </>\r\n   );\r\n"
+                },
+                {
+                    "date": 1753059939764,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export default function About() {\r\n   return (\r\n     <>\r\n-      <section className=\"about-section d-flex flex-column justify-content-center vh-100\">\r\n+      <section className=\"about-section vh-100\">\r\n         <SectionTitle name=\"about\" borderColor={'rgb(44, 62, 80)'} />\r\n         <div className=\"container\"></div>\r\n       </section>\r\n     </>\r\n"
+                },
+                {
+                    "date": 1753104786059,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,11 +3,34 @@\n \r\n export default function About() {\r\n   return (\r\n     <>\r\n-      <section className=\"about-section vh-100\">\r\n+      <section className=\"landing-section d-flex flex-column justify-content-center vh-100 text-white\">\r\n         <SectionTitle name=\"about\" borderColor={'rgb(44, 62, 80)'} />\r\n-        <div className=\"container\"></div>\r\n+        <div className=\"container\">\r\n+          <div className=\"row px-5\">\r\n+            <div className=\"col-md-6\">\r\n+              <div className=\"content ps-md-4\">\r\n+                <p>\r\n+                  Freelancer is a free bootstrap theme created by Route. The\r\n+                  download includes the complete source files including HTML,\r\n+                  CSS, and JavaScript as well as optional SASS stylesheets for\r\n+                  easy customization.\r\n+                </p>\r\n+              </div>\r\n+            </div>\r\n+            <div className=\"col-md-6 \">\r\n+              <div className=\"content pe-md-4\">\r\n+                <p>\r\n+                  Freelancer is a free bootstrap theme created by Route. The\r\n+                  download includes the complete source files including HTML,\r\n+                  CSS, and JavaScript as well as optional SASS stylesheets for\r\n+                  easy customization.\r\n+                </p>\r\n+              </div>\r\n+            </div>\r\n+          </div>\r\n+        </div>\r\n       </section>\r\n     </>\r\n   );\r\n }\r\n"
+                },
+                {
+                    "date": 1753104796854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export default function About() {\r\n   return (\r\n     <>\r\n-      <section className=\"landing-section d-flex flex-column justify-content-center vh-100 text-white\">\r\n+      <section className=\"about-section d-flex flex-column justify-content-center vh-100 text-white\">\r\n         <SectionTitle name=\"about\" borderColor={'rgb(44, 62, 80)'} />\r\n         <div className=\"container\">\r\n           <div className=\"row px-5\">\r\n             <div className=\"col-md-6\">\r\n"
+                },
+                {
+                    "date": 1753104812809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export default function About() {\r\n   return (\r\n     <>\r\n-      <section className=\"about-section d-flex flex-column justify-content-center vh-100 text-white\">\r\n+      <section className=\"about-section d-flex flex-column justify-content-center vh-100\">\r\n         <SectionTitle name=\"about\" borderColor={'rgb(44, 62, 80)'} />\r\n         <div className=\"container\">\r\n           <div className=\"row px-5\">\r\n             <div className=\"col-md-6\">\r\n"
+                },
+                {
+                    "date": 1753104821413,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export default function About() {\r\n   return (\r\n     <>\r\n-      <section className=\"about-section d-flex flex-column justify-content-center vh-100\">\r\n+      <section className=\"about-section d-flex flex-column justify-content-center vh-100 text-white\">\r\n         <SectionTitle name=\"about\" borderColor={'rgb(44, 62, 80)'} />\r\n         <div className=\"container\">\r\n           <div className=\"row px-5\">\r\n             <div className=\"col-md-6\">\r\n"
+                },
+                {
+                    "date": 1753104861842,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function About() {\r\n   return (\r\n     <>\r\n       <section className=\"about-section d-flex flex-column justify-content-center vh-100 text-white\">\r\n-        <SectionTitle name=\"about\" borderColor={'rgb(44, 62, 80)'} />\r\n+        <SectionTitle name=\"about\" />\r\n         <div className=\"container\">\r\n           <div className=\"row px-5\">\r\n             <div className=\"col-md-6\">\r\n               <div className=\"content ps-md-4\">\r\n"
+                },
+                {
+                    "date": 1753105872320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export default function About() {\r\n   return (\r\n     <>\r\n-      <section className=\"about-section d-flex flex-column justify-content-center vh-100 text-white\">\r\n+      <section className=\"about-section vh-100 text-white\">\r\n         <SectionTitle name=\"about\" />\r\n         <div className=\"container\">\r\n           <div className=\"row px-5\">\r\n             <div className=\"col-md-6\">\r\n"
+                },
+                {
+                    "date": 1753105878690,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n \r\n export default function About() {\r\n   return (\r\n     <>\r\n-      <section className=\"about-section vh-100 text-white\">\r\n+      <section className=\"about-section text-center vh-100 text-white\">\r\n         <SectionTitle name=\"about\" />\r\n         <div className=\"container\">\r\n           <div className=\"row px-5\">\r\n             <div className=\"col-md-6\">\r\n"
+                },
+                {
+                    "date": 1753105886382,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <>\r\n       <section className=\"about-section text-center vh-100 text-white\">\r\n         <SectionTitle name=\"about\" />\r\n         <div className=\"container\">\r\n-          <div className=\"row px-5\">\r\n+          <div className=\"row p-5\">\r\n             <div className=\"col-md-6\">\r\n               <div className=\"content ps-md-4\">\r\n                 <p>\r\n                   Freelancer is a free bootstrap theme created by Route. The\r\n"
+                },
+                {
+                    "date": 1753105912026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,9 @@\n     <>\r\n       <section className=\"about-section text-center vh-100 text-white\">\r\n         <SectionTitle name=\"about\" />\r\n         <div className=\"container\">\r\n-          <div className=\"row px-5\">\r\n+          <div className=\"row px-5 h-100 align-items-center\">\r\n             <div className=\"col-md-6\">\r\n               <div className=\"content ps-md-4\">\r\n                 <p>\r\n                   Freelancer is a free bootstrap theme created by Route. The\r\n"
+                },
+                {
+                    "date": 1753105925033,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,9 @@\n export default function About() {\r\n   return (\r\n     <>\r\n       <section className=\"about-section text-center vh-100 text-white\">\r\n-        <SectionTitle name=\"about\" />\r\n+        <SectionTitle name=\"about component\" />\r\n         <div className=\"container\">\r\n           <div className=\"row px-5 h-100 align-items-center d-flex\">\r\n             <div className=\"col-md-6\">\r\n               <div className=\"content ps-md-4\">\r\n"
+                }
+            ],
+            "date": 1753059516801,
+            "name": "Commit-0",
+            "content": "import React from 'react';\r\nimport SectionTitle from '../../../Shared/SectionTitle/SectionTitle';\r\n\r\nexport default function About() {\r\n  return (\r\n    <>\r\n      <section className=\"landing-section d-flex flex-column justify-content-center vh-100 text-white\">\r\n        <SectionTitle name=\"Home\" />\r\n        <div className=\"container\"></div>\r\n      </section>\r\n    </>\r\n  );\r\n}\r\n"
+        }
+    ]
+}

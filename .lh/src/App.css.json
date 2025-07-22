@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/App.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1753017858039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1753046909181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,6 @@\n+.start-border {\r\n+  &::after {\r\n+    content: '';\r\n+    border: 5px solid #000;\r\n+  }\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1753046916316,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .start-border {\r\n   &::after {\r\n     content: '';\r\n     border: 5px solid #000;\r\n+    width: 100%;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1753046930638,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .start-border {\r\n   &::after {\r\n     content: '';\r\n-    border: 5px solid #000;\r\n-    width: 100%;\r\n+    width: 100px;\r\n+    h\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1753046937628,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .start-border {\r\n   &::after {\r\n     content: '';\r\n     width: 100px;\r\n-    h\r\n+    height: 100px;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1753046946221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n   &::after {\r\n     content: '';\r\n     width: 100px;\r\n     height: 100px;\r\n-    background: #000;\r\n+    color: #000;\r\n   }\r\n }\r\n"
+                },
+                {
+                    "date": 1753046957168,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,6 +3,7 @@\n     content: '';\r\n     width: 100px;\r\n     height: 100px;\r\n     color: #000;\r\n+    position: absolute;\r\n   }\r\n }\r\n"
+                }
+            ],
+            "date": 1753017858039,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/about/About.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1753017543046,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1753017543046,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\n\r\nexport default function About() {\r\n  return (\r\n    <div>About</div>\r\n  )\r\n}\r\n"
+        }
+    ]
+}

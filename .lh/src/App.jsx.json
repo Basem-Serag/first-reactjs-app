@@ -1,0 +1,30 @@
+{
+    "sourceFile": "src/App.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 3,
+            "patches": [
+                {
+                    "date": 1753017195728,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1753017339800,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,13 @@\n import './App.css';\n \n+// Bootstrap\n+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';\n+import '../node_modules/bootstrap/dist/js/bootstrap.bundle';\n+\n+// fontAwesome\n+import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css'\n+\n function App() {\n   return <></>;\n }\n \n"
+                },
+                {
+                    "date": 1753017704038,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,10 +5,28 @@\n import '../node_modules/bootstrap/dist/js/bootstrap.bundle';\n \n // fontAwesome\n import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';\n+import { createBrowserRouter } from 'react-router-dom';\n+import Layout from './components/layout/Layout';\n+import About from './components/about/About';\n+import Portfolio from './components/portfolio/Portfolio';\n+import Contact from './components/contact/Contact';\n \n function App() {\n+  const routes = createBrowserRouter([\n+    {\n+      path: '/',\n+      index: true,\n+      element: <Layout />,\n+      children: [\n+        { path: 'about', element: <About /> },\n+        { path: 'portfolio', element: <Portfolio /> },\n+        { path: 'contact', element: <Contact /> },\n+      ],\n+    },\n+  ]);\n+\n   return <></>;\n }\n \n export default App;\n"
+                },
+                {
+                    "date": 1753017731075,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,9 +5,9 @@\n import '../node_modules/bootstrap/dist/js/bootstrap.bundle';\n \n // fontAwesome\n import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';\n-import { createBrowserRouter } from 'react-router-dom';\n+import { createBrowserRouter, RouterProvider } from 'react-router-dom';\n import Layout from './components/layout/Layout';\n import About from './components/about/About';\n import Portfolio from './components/portfolio/Portfolio';\n import Contact from './components/contact/Contact';\n@@ -24,8 +24,12 @@\n       ],\n     },\n   ]);\n \n-  return <></>;\n+  return (\n+    <>\n+      <RouterProvider router={routes}></RouterProvider>\n+    </>\n+  );\n }\n \n export default App;\n"
+                }
+            ],
+            "date": 1753017195728,
+            "name": "Commit-0",
+            "content": "import './App.css';\n\nfunction App() {\n  return <></>;\n}\n\nexport default App;\n"
+        }
+    ]
+}
