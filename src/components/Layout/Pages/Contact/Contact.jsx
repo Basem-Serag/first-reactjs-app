@@ -13,7 +13,7 @@ export default function Contact() {
           <div className="row justify-content-center align-items-center pt-5">
             <div className="col-md-7">
               <form>
-                <div className="mb-4">
+                <div className="mb-5">
                   <input
                     className="form-control border-0 border-bottom shadow-none"
                     type="text"
@@ -23,7 +23,7 @@ export default function Contact() {
                   />
                 </div>
 
-                <div className="mb-4">
+                <div className="mb-5">
                   <input
                     className="form-control border-0 border-bottom shadow-none"
                     type="number"
@@ -33,7 +33,7 @@ export default function Contact() {
                   />
                 </div>
 
-                <div className="mb-4">
+                <div className="mb-5">
                   <input
                     className="form-control border-0 border-bottom shadow-none"
                     type="email"
@@ -43,7 +43,7 @@ export default function Contact() {
                   />
                 </div>
 
-                <div className="mb-4">
+                <div className="mb-5">
                   <input
                     className="form-control border-0 border-bottom shadow-none"
                     type="password"
