@@ -9,7 +9,7 @@ import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
 import { createHashRouter, RouterProvider } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import Landing from './components/Layout/Landing/Landing';
-import About from './components/layout/Pages/About/About';
+import About from './components/Layout/Pages/About/About';
 import Portfolio from './components/layout/Pages/Portfolio/Portfolio';
 import Contact from './components/layout/Pages/Contact/Contact';
 import Notfound from './components/Shared/NotFound/Notfound';
